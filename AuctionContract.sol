@@ -37,7 +37,7 @@ contract Auction {
         }
         
         highestBidder = msg.sender;
-        highestBid = msg.value;
+        highestBid = msg.value;highestBid = msg.value;
 
         emit BidPlaced(msg.sender, msg.value);
     }
